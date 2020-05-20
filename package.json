@@ -1,0 +1,25 @@
+{
+  "name": "bookLearn",
+  "version": "1.0.0",
+  "description": "读书笔记",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sqlMustKnow:build": "vuepress build sqlMustKnow",
+    "sqlMustKnow:dev": "vuepress dev sqlMustKnow"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brightLian/bookLearn.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brightLian/bookLearn/issues"
+  },
+  "homepage": "https://github.com/brightLian/bookLearn#readme",
+  "devDependencies": {
+    "vuepress": "^1.5.0"
+  }
+}
