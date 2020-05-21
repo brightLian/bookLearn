@@ -2,4 +2,4 @@
 /node_modules/*
 .DS_Store
 .vuepress/dist/*
-/tsLearn/.vuepress/dist/*
+/sqlMustKnow/.vuepress/dist/*
