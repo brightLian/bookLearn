@@ -3,3 +3,4 @@
 .DS_Store
 .vuepress/dist/*
 /sqlMustKnow/.vuepress/dist/*
+/professionalJavaScript/.vuepress/dist/*

@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "sqlMustKnow:build": "vuepress build sqlMustKnow",
-    "sqlMustKnow:dev": "vuepress dev sqlMustKnow"
+    "sqlMustKnow:dev": "vuepress dev sqlMustKnow",
+    "professionalJavaScript:build": "vuepress build professionalJavaScript",
+    "professionalJavaScript:dev": "vuepress dev professionalJavaScript"
   },
   "repository": {
     "type": "git",
