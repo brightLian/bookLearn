@@ -151,7 +151,7 @@ module.exports = {
             },
             {
                 title: '第12课 联结表',
-                path: '/chapterEleventh/first',
+                path: '/chapterTwelfth/first',
                 collapsable: false,
                 sidebarDepth: 2,
                 children: [
