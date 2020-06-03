@@ -134,7 +134,9 @@ module.exports = {
                     '/chapterTenth/first.md',
                     '/chapterTenth/second.md',
                     '/chapterTenth/third.md',
-                    '/chapterTenth/fourth.md'
+                    '/chapterTenth/fourth.md',
+                    '/chapterTenth/fifth.md',
+                    '/chapterTenth/sixth.md',
                 ]
             },
             {
