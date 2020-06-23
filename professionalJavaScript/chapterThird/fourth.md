@@ -2,7 +2,7 @@
 ECMAScript 有5种简单数据类型：Undefined、Null、Boolean、Number 和 String。   
 还有一种复杂数据类型：Object。
 
-### typeof操作符
+### 3.4.1 typeof操作符
 鉴于 ECMAScript 是松散类型的，因此需要有一种手段来检测给定变量的数据类型————typeof 就是负责提供这方面信息的操作符。    
 对一个值使用 typeof 操作符可能返回下列某个字符串：
 - undefined————这个值未定义；
@@ -12,14 +12,14 @@ ECMAScript 有5种简单数据类型：Undefined、Null、Boolean、Number 和 S
 - object————这个值是对象或者null；
 - function————这个值是函数。
 
-### undefined类型
+### 3.4.2 undefined类型
 undefined 类型只有一个值，即特殊的 undefined。在使用 var 声明变量但未对其加以初始化时，这个变量的值就是 undefined 如：
 ```javascript
 var message;
 console.log(message == undefined); // true
 ```
 
-### null类型
+### 3.4.3 null类型
 null 类型是第二个只有一个值的数据类型，这个特殊的值就是 null。从逻辑角度看，null 表示一个空对象指针，而这也正式使用 typeof 操作符检测 
 null 值时会返回 object 的原因。如：
 ```javascript
@@ -32,7 +32,7 @@ console.log(null == undefined); // true
 ```
 这里位于 null 和 undefined 之间的相等操作符总是返回 true，不过要注意的是，这个操作符处于比较的目的会转换其操作数。    
 
-### boolean类型
+### 3.4.4 boolean类型
 boolean 类型是 ECMAScript 中使用最多的类型之一，该类型只有两种字面量：true 和 false。    
     
 需要注意的是，boolean 类型的字面值 true 和 false 是区分大小写的。   
@@ -52,7 +52,7 @@ console.log(messageAsBoolean) // true
 | Object   | 任何对象 | null |
 | Undefined   | / | undefined |
 
-### number类型
+### 3.4.5 number类型
 Number 类型应该是最令人关注的数据类型了。    
 最基本的数值字面量格式是十进制整数，十进制整数可以像下面这样直接在代码中输入：
 ```javascript
@@ -125,7 +125,7 @@ console.log(parseFloat('23.45.67')) // 23.45
 console.log(parseFloat('3.125e7')) // 31250000
 ```
 
-### string 类型
+### 3.4.6 string 类型
 string 类型用于表示由零或多个字符组成的字符序列，即字符串。字符串可以是单引号或双引号表示。    
 不过，以双引号开头的字符串必须以双引号结尾，而以单引号开头的字符串必须以单引号结尾。   
 
@@ -159,7 +159,7 @@ String() 函数遵循下列转换规则：
 - 如果值是 undefined，则返回 'undefined'。
 
 
-### Object 类型
+### 3.4.7 Object 类型
 ECMAScript 中的对象其实就是一组数据和功能的集合。   
 仅创建 Object 的实例并没有什么用处，但关键是要理解一个重要的思想：即 Object 类型是所有他的实例的基础。   
 换句话说：Object 类型所具有的任何属性和方法也同样存在于更具体的对象中。   
