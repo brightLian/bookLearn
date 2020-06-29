@@ -53,6 +53,17 @@ module.exports = {
                     '/chapterThird/seventh.md',
                     '/chapterThird/eighth.md',
                 ]
+            },{
+                title: '第4章 变量、作用域和内存问题',   // 标题：必要的
+                path: '/chapterFourth/first',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
+                collapsable: false, // 展开侧边栏： 可选的, 默认值是 true,
+                sidebarDepth: 2,    // 侧边栏深度：可选的, 默认值是 1
+                children: [
+                    '/chapterFourth/first.md',
+                    '/chapterFourth/second.md',
+                    '/chapterFourth/third.md',
+                    '/chapterFourth/fourth.md',
+                ]
             }
         ]
     }
