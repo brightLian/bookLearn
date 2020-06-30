@@ -64,7 +64,22 @@ module.exports = {
                     '/chapterFourth/third.md',
                     '/chapterFourth/fourth.md',
                 ]
-            }
+            }, {
+                title: '第5课 引用类型',
+                path: '/chapterFifth/first',
+                collapsable: false,
+                sidebarDepth: 2,
+                children: [
+                    '/chapterFifth/first.md',
+                    '/chapterFifth/second.md',
+                    '/chapterFifth/third.md',
+                    '/chapterFifth/fourth.md',
+                    '/chapterFifth/fifth.md',
+                    '/chapterFifth/sixth.md',
+                    '/chapterFifth/seventh.md',
+                    '/chapterFifth/eighth.md',
+                ]
+            },
         ]
     }
 };
