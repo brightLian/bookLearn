@@ -79,6 +79,16 @@ module.exports = {
                     '/chapterFifth/seventh.md',
                     '/chapterFifth/eighth.md',
                 ]
+            }, {
+                title: '第6课 面向对象程序涉及',
+                path: '/chapterSixth/first',
+                collapsable: false,
+                sidebarDepth: 2,
+                children: [
+                    '/chapterSixth/first.md',
+                    '/chapterSixth/second.md',
+                    // '/chapterSixth/third.md'
+                ]
             },
         ]
     }
