@@ -65,7 +65,7 @@ module.exports = {
                     '/chapterFourth/fourth.md',
                 ]
             }, {
-                title: '第5课 引用类型',
+                title: '第5章 引用类型',
                 path: '/chapterFifth/first',
                 collapsable: false,
                 sidebarDepth: 2,
@@ -80,7 +80,7 @@ module.exports = {
                     '/chapterFifth/eighth.md',
                 ]
             }, {
-                title: '第6课 面向对象程序涉及',
+                title: '第6章 面向对象程序涉及',
                 path: '/chapterSixth/first',
                 collapsable: false,
                 sidebarDepth: 2,
@@ -90,7 +90,18 @@ module.exports = {
                     '/chapterSixth/third.md',
                     '/chapterSixth/fourth.md'
                 ]
-            },
+            }, {
+                title: '第7章 函数表达式',
+                path: '/chapterSeventh/first',
+                collapsable: false,
+                sidebarDepth: 2,
+                children: [
+                    '/chapterSeventh/first.md',
+                    // '/chapterSeventh/second.md',
+                    // '/chapterSeventh/third.md',
+                    // '/chapterSeventh/fourth.md'
+                ]
+            }
         ]
     }
 };
