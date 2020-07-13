@@ -97,7 +97,7 @@ module.exports = {
                 sidebarDepth: 2,
                 children: [
                     '/chapterSeventh/first.md',
-                    // '/chapterSeventh/second.md',
+                    '/chapterSeventh/second.md',
                     // '/chapterSeventh/third.md',
                     // '/chapterSeventh/fourth.md'
                 ]
