@@ -99,7 +99,8 @@ module.exports = {
                     '/chapterSeventh/first.md',
                     '/chapterSeventh/second.md',
                     '/chapterSeventh/third.md',
-                    '/chapterSeventh/fourth.md'
+                    '/chapterSeventh/fourth.md',
+                    '/chapterSeventh/fifth.md',
                 ]
             }
         ]
