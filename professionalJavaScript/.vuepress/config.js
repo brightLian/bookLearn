@@ -98,8 +98,8 @@ module.exports = {
                 children: [
                     '/chapterSeventh/first.md',
                     '/chapterSeventh/second.md',
-                    // '/chapterSeventh/third.md',
-                    // '/chapterSeventh/fourth.md'
+                    '/chapterSeventh/third.md',
+                    '/chapterSeventh/fourth.md'
                 ]
             }
         ]
